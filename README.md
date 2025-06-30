@@ -65,6 +65,8 @@ job-tracker/
 git clone https://github.com/ajaretemi/job-tracker.git
 cd job-tracker
 
+---
+
 ### 2. Install dependencies
     
 #### Server
@@ -79,11 +81,15 @@ npm install
 cd ../client
 npm install
 
+---
+
 ### 3. Create .env file in /server
 
 ```ini
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
+
+---
 
 ### 4. Run the app
 
@@ -100,6 +106,8 @@ cd ../client
 npm run dev
 
 App will be running at: http://localhost:5173
+
+---
 
 ## Author
 Temi Ajare
