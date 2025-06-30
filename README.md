@@ -63,9 +63,7 @@ job-tracker/
 
 ```bash
 git clone https://github.com/ajaretemi/job-tracker.git
-cd job-tracker
-
----
+cd job-tracker```
 
 ### 2. Install dependencies
     
@@ -73,23 +71,19 @@ cd job-tracker
 
 ```bash
 cd server
-npm install
+npm install```
 
 #### Client
 
 ```bash
 cd ../client
-npm install
-
----
+npm install```
 
 ### 3. Create .env file in /server
 
 ```ini
 MONGO_URI=your_mongodb_connection_string
-PORT=5000
-
----
+PORT=5000```
 
 ### 4. Run the app
 
@@ -97,17 +91,15 @@ PORT=5000
 
 ```bash
 cd server
-npm run dev
+npm run dev```
 
 #### Client
 
 ```bash
 cd ../client
-npm run dev
+npm run dev```
 
 App will be running at: http://localhost:5173
-
----
 
 ## Author
 Temi Ajare
